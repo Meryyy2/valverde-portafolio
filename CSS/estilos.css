@@ -32,6 +32,19 @@ body {
   text-shadow: 1px 1px 15px #000;
 }
 
+#work:hover,
+.intro:hover, 
+.intro p:hover {
+  color:#ffffff;
+}
+
+#menu{
+  color:#ffffff;
+}
+#menu:hover {
+  color: #34c44c;
+}
+
 
 /* nav style */
 .navbar{
@@ -452,6 +465,57 @@ footer a {
   }
 }
 
+/* responsive style */
+@media (max-width: 992px) {
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  }
+    }
+  @media (max-width: 768px) {
+  .social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+@media (max-width: 1300px){ 
+  .home .max-width{
+      margin-left: 0;
+  }
+}
+
+@media (max-width: 1104px){ 
+  .about .about-conten .left img{
+      height: 350px;
+      width: 350px;      
+  }
+}
+
+@media (max-width: 991px){ 
+  .max-width{
+      padding: 0 50px
+  }
+}
+
 @media (max-width: 947px){ 
   .menu-btn{
       display: block;
@@ -489,6 +553,7 @@ footer a {
   }
 
 
+  
   .max-width{
       max-width: 800px;
   }
@@ -508,6 +573,7 @@ footer a {
   }
 
 
+
   .skill .skill-content .column{
       width: 100%;
       margin-bottom: 35px;
@@ -519,12 +585,20 @@ footer a {
   .max-width{
       padding: 0 23px
   }
+
+
+
   .skill .skill-content .column{
       width: 100%;
   }
 }
 
+@media (max-width: 500px){ 
+  .max-width{
+      padding: 0 23px
+  }
 
+}
 @media only screen and (min-width:200px) and (max-width:768px){
 	.container-card{
 		flex-wrap: wrap;
