@@ -35,104 +35,104 @@ body {
 
 /* nav style */
 .navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 20px 0;
-    transition: all 0.5s ease;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 20px 0;
+  transition: all 0.5s ease;
 }
 
 .navbar.sticky{
-    padding: 10px 0;
-    background: rgb(5, 5, 5);
+  padding: 10px 0;
+  background: rgb(5, 5, 5);
 }
 
 .navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar .logo a{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .navbar .logo a span:hover{
-    color: rgb(69, 6, 82);
+  color: rgb(69, 6, 82);
 }
 
 .navbar.sticky .logo a span:hover{
-    transition: all 0.5s ease;
-    color: #fff;
+  transition: all 0.5s ease;
+  color: #fff;
 }
 
 .navbar .menu li{
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 
 .navbar .menu li a{
-    display: block;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease;
-    transition: all 0.5s ease;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .navbar .menu li a:hover{
-    color: rgb(160, 20, 113);
-    font-size: 20px;
+  color: rgb(160, 20, 113);
+  font-size: 20px;
 }
 
 .navbar.sticky .menu li a:hover{
-    transition: all 0.5s ease;
-    color: #fff;
+  transition: all 0.5s ease;
+  color: #fff;
 }
 
 /* meno btn */
 
 .menu-btn{
-    color: #fff;
-    font-size: 23px;
-    cursor: pointer;
-    display: none;
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
 }
 
 .scroll-up-btn{
-    position: fixed;
-    height: 45px;
-    width: 42px;
-    background: rgb(49, 8, 49);
-    left: 30px;
-    bottom: 10px;
-    text-align: center;
-    line-height: 45px;
-    color: #fff;
-    z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.5s ease;
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: rgb(49, 8, 49);
+  left: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease;
 }
 
 .scroll-up-btn.show{
-    bottom: 30px;
-    opacity: 1;
-    pointer-events: auto;    
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;    
 
 }
 
 /* aboutme start */
 section{
-    padding: 100px ;
-    background: #2c3e50;
-    color: #fff;
+  padding: 100px ;
+  background: #2c3e50;
+  color: #fff;
 }
  
 section .tittle{
@@ -145,14 +145,14 @@ section .tittle{
 }
  
 section .tittle::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 190px;
-    height: 3px;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 190px;
+  height: 3px;
  
-    transform: translateX(-50%);
+  transform: translateX(-50%);
 }
  
 section .tittle::after{
@@ -178,7 +178,7 @@ section .about-conten{
   height: 300px;
   width: 300px;      
   object-fit: cover;  
-  border-radius: 20px;
+  
 }
  
 .about .about-conten .right{
